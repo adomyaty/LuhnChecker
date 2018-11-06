@@ -1,17 +1,17 @@
 # LuhnChecker
+By Ahmed Domyaty
+
 Takes a test credit card and applies the Luhn Check algorithm against it
 (Pre-Requisite: Must have Python Installed, with PATH set for it)
 
 
-
-Replace the numbers with your test credit card numbers and then run the LuhnChecker.py on any Terminal/CMD
-
+1. Open Test.py
+2. Replace the test value with a "Test" Credit Card Number
 ```
-result = (is_luhn_valid(4532015112830366))
-print ("Correct:" + str(result))
-result = (is_luhn_valid(6011514433546201))
-print ("Correct:" + str(result))
-result = (is_luhn_valid(6771549495586802))
+result = (is_luhn_valid(ENTER TEST CREDIT CARD HERE))
 print ("Correct:" + str(result))
 ```
-Lasytly to execute run the LuhnChecker.py from any Terminal/CMD (Console Command:>> python LuhnChecker.py)
+3. Run the Test.py on any Terminal/CMD
+```
+>> python Test.py
+```
