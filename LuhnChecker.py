@@ -14,9 +14,5 @@ def is_luhn_valid(card_number):
     return luhn_checksum(card_number) == 0
 
 
-result = (is_luhn_valid(4532015112830366))
-print ("Correct:" + str(result))
-result = (is_luhn_valid(6011514433546201))
-print ("Correct:" + str(result))
-result = (is_luhn_valid(6771549495586802))
+result = (is_luhn_valid(6011472730641912))
 print ("Correct:" + str(result))
