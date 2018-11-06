@@ -1,9 +1,9 @@
 # LuhnChecker
 Takes a test credit card and applies the Luhn Check algorithm against it
-(Note: Must have Python Installed)
+(Pre-Requisite: Must have Python Installed)
 
 
-Replace the numbers with your test credit card numbers and then run the LuhnCheck.py on any console
+Replace the numbers with your test credit card numbers and then run the LuhnChecker.py on any Terminal/CMD
 
 ```
 result = (is_luhn_valid(4532015112830366))
